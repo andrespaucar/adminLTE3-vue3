@@ -9,9 +9,8 @@ en desarrollo ...
 - PAGINATION
 - BUTTON
 ...
+- MAIN [LAYOUTS](src/components/main)
 
-- SIDEMAIN
-- HEADERMAIN
 
 
 
