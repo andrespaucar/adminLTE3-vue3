@@ -1,5 +1,5 @@
-# adminlte3_vue3
-
+# AdminLTE3 Vue3 
+en desarrollo ...
 
 ## COMPONENTS
 
@@ -8,6 +8,16 @@
 - FORM
 - PAGINATION
 - BUTTON
+...
+
+- SIDEMAIN
+- HEADERMAIN
+
+
+
+
+
+
 
 
 ## Project setup

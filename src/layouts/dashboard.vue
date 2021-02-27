@@ -21,8 +21,11 @@
       </div>
     </template>
     <template #sidebar-menu>
-      <menu-simple label="Usuarios" icon="users" to="/users"/>
       <menu-simple label="Home" icon="home" to="/"/>
+      <menu-full label="MFull" icon="box">
+        <menu-simple label="Usuarios" to="/users" type="far" />
+
+      </menu-full>
     </template>
   </MainSidebarComponent>
 </template>
@@ -31,12 +34,13 @@
 import MainHeaderComponent from "@/components/main/MainHeader.vue";
 import MainSidebarComponent from '@/components/main/MainSidebar.vue';
 import MenuSimple from "@/components/main/menu/simple.vue";
+import MenuFull from '@/components/main/menu/full.vue'
 import { onMounted } from 'vue';
 export default {
   components:{
     MainHeaderComponent,
     MainSidebarComponent,
-    MenuSimple
+    MenuSimple,MenuFull
   },
   setup(){
     onMounted(()=>{

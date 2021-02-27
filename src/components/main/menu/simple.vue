@@ -1,7 +1,7 @@
 <template>
     <li class="nav-item">
         <router-link :to="to" class="nav-link" exact-active-class="active">
-            <i class="nav-icon fas " :class="'fa-'+icon"></i>
+            <i class="nav-icon" :class="['fa-'+icon,type]"></i>
             <p> {{label}} </p>
         </router-link>
     </li>
@@ -11,8 +11,9 @@
 export default {
     props:{
         label:{type:String,required:true},
-        icon:{type:String,required:true},
-        to:{type:[String,Object],required:true}
+        icon:{type:String,default:'circle'},
+        to:{type:[String,Object],required:true},
+        type:{type:String,default:'fas'}
     }
 }
 </script>
