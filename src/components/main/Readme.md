@@ -45,3 +45,25 @@
     <menu-simple label="Usuarios" to="/users" type="far" />
 </menu-full>
 ```
+
+- CONTENT
+```html
+<ContentFluit>
+  <template #title>
+    <h1 class="m-0 text-dark">Dashboard v3</h1> 
+  </template>
+  <template #breadcrumb>
+    <li class="breadcrumb-item"><a href="#">Home</a></li>
+    <li class="breadcrumb-item active">Dashboard v3</li>
+  </template>
+  <template #content>
+    <div class="row">
+      <div class="col-5">
+        <div class="card">
+          <div class="card-body">GOGOGO</div>
+        </div>
+      </div>
+    </div>
+  </template>
+</ContentFluit>
+```

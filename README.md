@@ -3,11 +3,12 @@ en desarrollo ...
 
 ## COMPONENTS
 
-- CARD
-- MODAL
-- FORM
-- PAGINATION
-- BUTTON
+- BUTTON [LINK](src/components/botton)
+- CARD [LINK](src/components/card)
+- FORM [LINK](src/components/form)
+- MODAL [LINK](src/components/modal)
+- PAGINATION [LINK](src/components/pagination)
+- TABLE [LINK](src/components/table)
 ...
 - MAIN [LAYOUTS](src/components/main)
 
